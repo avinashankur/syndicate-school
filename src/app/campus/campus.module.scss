@@ -1,0 +1,71 @@
+.image {
+  position: relative;
+  margin-top: 1rem;
+  height: 80vh;
+  overflow: hidden;
+
+  img {
+    border-radius: 0.6rem;
+    filter: brightness(0.6);
+    z-index: -1;
+    object-fit: cover;
+  }
+
+  .imageText {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 900;
+    // mix-blend-mode: luminosity;
+    text-transform: uppercase;
+    padding: 3rem 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+.getReady {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.image2 {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+
+  &:hover img{
+    // z-index: 99;
+    filter: brightness(0.6);
+  }
+
+  img {
+    filter: brightness(0.4);
+    z-index: -1;
+    object-fit: cover;
+    transition: filter 0.2s ease-out;
+  }
+
+  .imageText {
+    color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+    
+    p{
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+        text-decoration: underline;
+    }
+    
+    h3 {
+        font-size: 2rem;
+
+    }
+  }
+}

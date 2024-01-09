@@ -1,0 +1,55 @@
+:root {
+  --font-primary: "IBM Plex Sans", sans-serif;
+  --border-radius: 0.6rem;
+
+  // colors --------------------------------------- >
+  --clr-bg: rgb(22, 22, 22);
+  // --clr-bg-secondary: #4c505113;
+  --clr-selection-bg: white;
+  --clr-selection-text: black;
+  --clr-bg-secondary: rgb(22, 22, 22);
+  --clr-primary: rgb(226, 226, 226);
+  --clr-secondary: rgb(154, 154, 154);
+  --clr-accent: rgb(153, 1, 235);
+  --clr-gradient: linear-gradient(
+    90deg,
+    rgb(15, 15, 15) 0%,
+    rgb(23, 23, 23) 100%
+  );
+  --clr-box-shadow: #000000;
+  // --clr-box-shadow: rgba(0, 0, 0, 0.567);
+  --box-shadow: var(--clr-box-shadow) 0px 5px 20px 0px;
+
+  --txt-gradient: linear-gradient(
+    to left,
+    rgb(123, 31, 162),
+    rgb(103, 58, 183),
+    rgb(244, 143, 177),
+    rgb(123, 31, 162)
+  );
+  --txt-gradient-logo: linear-gradient(
+    to right,
+    rgb(123, 31, 162),
+    rgb(103, 58, 183),
+    rgb(244, 143, 177),
+    rgb(123, 31, 162)
+  );
+}
+
+.dark-mode-variables {
+  --clr-selection-bg: black;
+  --clr-selection-text: white;
+  --clr-bg: rgb(246, 246, 246);
+  --clr-bg-secondary: rgb(232, 232, 232);
+  --clr-bg-secondary: rgb(246, 246, 246);
+  --clr-primary: rgb(15, 15, 15);
+  --clr-secondary: rgb(93, 93, 93);
+  --clr-gradient: linear-gradient(
+    90deg,
+    rgb(246, 246, 246) 0%,
+    rgb(234, 234, 234) 100%
+  );
+  --clr-box-shadow: #aaaaaa;
+
+  --box-shadow: var(--clr-box-shadow) 0px 5px 20px 0px;
+}

@@ -1,0 +1,36 @@
+.wrap {
+  border: 1px solid var(--clr-secondary);
+  background-color: var(--clr-bg-secondary);
+  padding: 1rem 3rem;
+  // min-width: 15rem;
+
+  a {
+    color: var(--clr-secondary);
+    line-height: 1.5;
+    text-decoration: none;
+    transition: all 0.2s ease-out;
+
+    &:hover {
+      color: var(--clr-primary);
+      text-decoration: underline;
+    }
+  }
+
+  div {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--clr-secondary);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cbse {
+    p {
+      margin-bottom: 0.3rem;
+    }
+
+    a {
+      padding-left: 1rem;
+    }
+  }
+}

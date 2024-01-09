@@ -1,0 +1,31 @@
+.title {
+    margin-bottom: 2rem;
+}
+
+.wrap {
+    color: var(--clr-primary);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .sidebar {
+        flex: 1 0 135px;
+        background-color: red;
+        max-width: 20rem;
+        min-width: 20rem;
+        // box-shadow: 1px 1px 4px var(--clr-box-shadow);
+
+    }
+    
+    .rightSide {
+        padding: 0.1rem 0.5rem;
+        flex: 1;
+        flex-basis: 135px;
+        flex-grow: 70%;
+        // background-color: rebeccapurple;
+        min-width: 25rem;
+    }
+
+   
+}

@@ -1,0 +1,61 @@
+.theForm {
+  color: var(--clr-primary);
+  margin-top: 3rem;
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+
+    .rightSide {
+      flex-grow: 1;
+      background-color: var(--clr-bg-secondary);
+      padding: 2rem;
+      border-radius: 0.6rem;
+      box-shadow: var(--box-shadow);
+
+      div {
+        padding: 1rem;
+
+        label {
+          // color: green;
+        }
+
+        input {
+          color: var(--clr-secondary);
+        }
+
+        input[type=file]::file-selector-button {
+            margin-top: 0.5rem;
+            color: var(--clr-secondary);
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border: 1px solid var(--clr-secondary);
+            border-radius: 0.2rem;
+            background-color: var(--clr-bg);
+            transition: all 0.2s ease-out;
+
+            &:hover {
+                background-color: var(--clr-primary);
+                color: var(--clr-bg);
+            }
+        }
+      }
+    }
+  }
+
+  .margin {
+    margin: 5rem auto;
+    color: red;
+  }
+
+  .butt {
+    margin: 5rem auto;
+    margin-bottom: 15rem;
+    text-align: center;
+  }
+}

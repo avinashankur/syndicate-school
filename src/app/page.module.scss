@@ -1,0 +1,72 @@
+.trendingSection {
+    background-color: var(--clr-bg-secondary);
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    
+    h3 {
+        color: var(--clr-primary);
+
+        .hide {
+            display: none;
+            font-size: 12px;
+        }
+    }
+
+    .trendingCardHolder {
+        margin-top: 1rem;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        div{
+            overflow: hidden;
+            position: relative;
+            flex: 1 0 10rem;
+            height: 15rem;
+            background-color: rgba(105, 105, 105, 0.184);
+            border-radius: 0.5rem;
+            box-shadow: var(--box-shadow);
+            
+            &:hover img {
+                transform: scale(1.2);
+            }
+            
+            img {
+                object-fit: cover;
+                transition: transform 0.3s ease-out;
+            }
+
+            span {
+                cursor: default;
+                position: absolute;
+                // top: 12.55rem;
+                bottom: 0;
+                padding: 0.3rem;
+                font-size: 14px;
+                color: var(--clr-secondary);
+                background-color: var(--clr-bg);
+                transition: all 0.2s ease-out;
+                opacity: 0.8;
+
+                &:hover {
+                    opacity: 0;
+                }
+            }
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 962px) {
+
+    .trendingSection {
+        h3 {
+            .hide {
+                display: inline-block;
+            }
+        }
+    }
+
+}

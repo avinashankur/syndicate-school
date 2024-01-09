@@ -1,0 +1,22 @@
+.wrap {
+    color: var(--clr-secondary);
+    margin-bottom: 10rem;
+
+    h1, h2 {
+        color: var(--clr-primary);
+    }
+
+    h2{
+        font-size: 1.3rem;
+        margin: 0.5rem 0;
+    }
+
+    .margin {
+        margin: 2rem 0;
+    }
+
+    .termsAndConditions {
+        margin: 2rem 0;
+    }
+
+}

@@ -1,0 +1,53 @@
+.wrap {
+  color: var(--clr-primary);
+
+  .title {
+    margin: 1rem 0;
+  }
+
+  .mainContent {
+    color: var(--clr-primary);
+
+    > * {
+      color: var(--clr-secondary);
+    }
+
+    .open {
+      margin-top: 2rem;
+      color: rgb(0, 181, 0);
+    }
+
+    ol {
+      margin-bottom: 4rem;
+      margin-left: 1.3rem;
+
+      li {
+        margin: 0.3rem;
+        
+
+        a {
+          color: inherit;
+          transition: all 0.2s ease-out;
+
+          &:hover {
+            color: var(--clr-primary);
+          }
+        }
+      }
+
+      .butto {
+        margin-bottom: 4rem;
+      }
+    }
+
+    ul li {
+      list-style: disc inside none;
+    }
+  }
+
+  .timeout {
+    color: rgb(221, 0, 0);
+    margin-top: 4rem;
+    margin-bottom: 19rem;
+  }
+}

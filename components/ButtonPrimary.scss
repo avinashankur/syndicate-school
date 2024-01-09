@@ -1,0 +1,18 @@
+@import "/src/app/constants.scss";
+
+.primary-button {
+    cursor: pointer;
+    border: none;
+    color: var(--clr-bg);
+    outline: 2px solid var(--clr-primary);
+    outline-offset: 2px;
+    padding: 0.4rem 1rem;
+    background-color: var(--clr-primary);
+    border-radius: var(--border-radius);
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  
+    &:hover {
+      background-color: var(--clr-bg);
+      color: var(--clr-primary);
+    }
+  }
